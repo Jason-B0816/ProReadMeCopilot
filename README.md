@@ -1,14 +1,14 @@
-# Generate Read Me 
-This project is to create a ReadMe generator to allow more time dedicated to the project at hand.
+# To Create a ReadMe generator.
+This project is a easy to us ReadMe generator using Node.js and Inquirer
 ## Installation
-N/A
+clone repository from GitHub to VS code, run npm i to install dependencies.
 ## Usage
-Project uses GitHub, VS studios, Node.js, inquirer package
+Once you have install the dependencies, you will run the followning command in terminal in VS Code: node index.js
 ## Contribution
-Please include all code used, give credit to any packages used
+Please email me
 ## Tests
-Test 
+Try it out, you will enjoy the simplicity of the ReadMe generator
 ## License
-This project is licensed under the None license.
+This project is licensed under the Apache license.
 ## Questions
 If you have any questions, please contact me at [jbrooks200800@gmail.com](mailto:jbrooks200800@gmail.com). You can also find more of my work at [Jason-B0816](https://github.com/Jason-B0816).

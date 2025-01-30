@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+import generateMarkdown from './utils/generateMarkdown.js';
 
 const generateReadMe = (answers) =>
 `# ${answers.title}
