@@ -1,7 +1,7 @@
 
 ![badge](https://img.shields.io/badge/LICENSE-Apache-yellow)
-# To Create a functional ReadMe generator.
-This project is a easy to us ReadMe generator using Node.js and Inquirer
+# ReadMe Generator
+This project is an easy to us ReadMe generator using Node.js and Inquirer. This becomes a ReadMe copilot that allows you to focus more time on project at hand.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,13 +12,13 @@ This project is a easy to us ReadMe generator using Node.js and Inquirer
 - [Questions](#questions)
 
 ## Installation
-Clone repository from GitHub to VS Code, run npm i to install dependencies needed.
+Clone repository from Github to VS Code, run npm i to install needed dependencies.
 ## Usage
-Once you have installed the dependencies, you will run the following command in terminal in VS Code: node index.js
+Once dependencies are installed, you will run the following command the intergrated terminal in VS Code:  node index.js This will then prompt you to answer a few questions.
 ## Contribution
-Pleae email me
+Please email me
 ## Tests
-Please try it out, you will enjoy the simplicity of the ReadMe generator
+Try it out, you will enjoy the simplicity of the ReadMe generator
 
 ## License
 This project is licensed under the Apache license.
