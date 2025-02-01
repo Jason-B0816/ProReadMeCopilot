@@ -1,24 +1,9 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
-import generateMarkdown from './utils/generateMarkdown.js';
 
-const generateReadMe = (answers) =>
-`# ${answers.title}
-${answers.description}
-## Installation
-${answers.installation}
-## Usage
-${answers.usage}
-## Contribution
-${answers.contribution}
-## Tests
-${answers.test}
-## License
-This project is licensed under the ${answers.license} license.
-## Questions
-If you have any questions, please contact me at [${answers.email}](mailto:${answers.email}). You can also find more of my work at [${answers.github}](https://github.com/${answers.github}).
-`;
+import generateMarkdown from "./utils/generateMarkdown.js"
+
 // TODO: Create an array of questions for user input
 const questions = [];
 inquirer
@@ -71,7 +56,7 @@ inquirer
     },
 ])
 .then((answers) => {
-    const readMe = generateReadMe(answers);
+    const readMe = generateMarkdown(answers);
     writeToFile('README.md', readMe);
 });
 // TODO: Create a function to write README file

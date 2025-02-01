@@ -1,14 +1,28 @@
-# To Create a ReadMe generator.
-This project is a easy to us ReadMe generator using Node.js and Inquirer
+
+![badge](https://img.shields.io/badge/LICENSE-MIT-yellow)
+# sdffsd
+fghf
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
 ## Installation
-clone repository from GitHub to VS code, run npm i to install dependencies.
+sdfsd
 ## Usage
-Once you have install the dependencies, you will run the followning command in terminal in VS Code: node index.js
+hr
 ## Contribution
-Please email me
+twef
 ## Tests
-Try it out, you will enjoy the simplicity of the ReadMe generator
+fwe
+
 ## License
-This project is licensed under the Apache license.
+This project is licensed under the MIT license.
+For more details, click on this link: [MIT](https://opensource.org/licenses/MIT)
+  
 ## Questions
-If you have any questions, please contact me at [jbrooks200800@gmail.com](mailto:jbrooks200800@gmail.com). You can also find more of my work at [Jason-B0816](https://github.com/Jason-B0816).
+If you have any questions, please contact me at [wfew](mailto:wfew). You can also find more of my work at [fwe](https://github.com/fwe).
