@@ -26,6 +26,7 @@ function renderLicenseLink(license) {
 }
 
 function renderLicenseSection(license) {
+  //function is for the license section of the README
   if(license === "None") {
     return ''
   } else {
@@ -38,12 +39,14 @@ For more details, click on this link: ${renderLicenseLink(license)}
 }
 
 // TODO: Create a function to generate markdown for README
+// function generateMarkdown(data) {
 function generateMarkdown(answers) {
 return `
 ${renderLicenseBadge(answers.license)}
 # ${answers.title}
 ${answers.description}
 
+// This is the template for the README
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
