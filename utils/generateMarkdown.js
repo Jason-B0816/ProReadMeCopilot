@@ -46,7 +46,7 @@ ${renderLicenseBadge(answers.license)}
 # ${answers.title}
 ${answers.description}
 
-// This is the template for the README
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
