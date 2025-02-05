@@ -55,7 +55,10 @@ inquirer
         name: 'email',
         message: 'What is your email address?',
     },
+    
 ])
+
+
 .then((answers) => {  //then function to generate the README file
     const readMe = generateMarkdown(answers);
     writeToFile('README.md', readMe);

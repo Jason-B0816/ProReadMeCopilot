@@ -44,6 +44,8 @@ function generateMarkdown(answers) {
 return `
 ${renderLicenseBadge(answers.license)}
 # ${answers.title}
+
+## Description 
 ${answers.description}
 
 
@@ -55,6 +57,7 @@ ${answers.description}
 - [License](#license)
 - [Questions](#questions)
 
+
 ## Installation
 ${answers.installation}
 ## Usage
@@ -65,7 +68,10 @@ ${answers.contribution}
 ${answers.test}
 ${renderLicenseSection(answers.license)}
 ## Questions
-If you have any questions, please contact me at [${answers.email}](mailto:${answers.email}). You can also find more of my work at [${answers.github}](https://github.com/${answers.github}).
+If you have any questions, please contact me at [${answers.email}]. You can also find more of my work at (${answers.github}).
+
+## Walkthrough Video Link 
+Click on link to view 
 `;
 }
 
